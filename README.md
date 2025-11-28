@@ -1,47 +1,76 @@
-# Component Playground 🎨
+# React Native Workshop 🚀
 
-**Component Playground** é um aplicativo educacional interativo desenvolvido em React Native que permite explorar e aprender sobre os principais componentes do framework de forma prática e visual.
+**React Native Workshop** é uma plataforma educacional integrada que combina duas poderosas ferramentas de aprendizagem para React Native: exploração interativa de componentes e exercícios práticos progressivos.
 
 ## 📋 Sobre o Projeto
 
-Este miniapp foi criado como ferramenta de ensino para iniciantes em React Native, permitindo que os usuários:
+Este aplicativo educacional oferece duas experiências complementares de aprendizagem:
 
-- Visualizem componentes nativos em tempo real
-- Modifiquem propriedades interativamente
-- Vejam o código JSX correspondente
-- Experimentem com diferentes configurações
-- Compreendam o comportamento de cada componente
+### 🎨 Component Playground
+Explore e experimente com componentes do React Native em tempo real:
+- Visualize 7 componentes essenciais
+- Modifique propriedades interativamente
+- Veja o código JSX gerado automaticamente
+- Compreenda o comportamento de cada componente
 
-### Componentes Disponíveis
+### 📚 React Step Builder
+Aprenda React Native através de exercícios práticos progressivos:
+- 4 módulos de aprendizagem (Fundamentos, Interatividade, Estilização, Navegação)
+- Exercícios teóricos e práticos
+- Feedback imediato
+- Sistema de progresso e acompanhamento
 
-O aplicativo oferece exploração interativa de 7 componentes essenciais do React Native:
+## ✨ Funcionalidades Principais
 
-- **View** - Container básico para layout
-- **Text** - Exibição de texto
-- **TouchableOpacity** - Botões e elementos clicáveis
-- **Image** - Exibição de imagens
-- **TextInput** - Campos de entrada de texto
-- **ScrollView** - Listas roláveis
-- **ActivityIndicator** - Indicador de carregamento
+### Interface Unificada
+- **Menu Principal**: Navegação intuitiva entre as duas aplicações
+- **Design Moderno**: Interface elegante com paleta de cores diferenciada
+- **Navegação Fluida**: Sistema de navegação com botão de retorno ao menu em todas as telas
 
-## ✨ Funcionalidades
+### Component Playground
+- **Menu Lateral Retrátil**: Navegação rápida entre componentes
+- **Área de Preview**: Visualização em tempo real
+- **Painel de Propriedades**: Controles interativos para modificar atributos
+- **Exibição de Código JSX**: Código gerado conforme as modificações
+- **Sistema Responsivo**: Limites adaptativos e auto-colapso inteligente
 
-### Interface Intuitiva
-- **Menu Lateral Retrátil**: Navegação rápida entre componentes com opção de colapsar para maximizar o espaço de trabalho
-- **Área de Preview**: Visualização em tempo real do componente selecionado
-- **Painel de Propriedades**: Controles interativos para modificar atributos do componente
-- **Exibição de Código JSX**: Código gerado automaticamente conforme as modificações
+### React Step Builder
+- **Aprendizagem Progressiva**: Do básico ao avançado
+- **Exercícios Interativos**: Complete lacunas no código com feedback imediato
+- **Preview de Código**: Visualize exemplos com syntax highlighting
+- **Sistema de Progresso**: Acompanhe sua evolução em tempo real
+- **Persistência**: Seu progresso é salvo automaticamente
 
-### Controles Inteligentes
-- **Inputs Numéricos com Setas**: Botões de incremento/decremento para ajustes precisos
-- **Limites Dinâmicos**: Sistema que ajusta automaticamente os valores máximos baseado no espaço disponível
-- **Auto-Colapso**: Menu retrai automaticamente quando valores excedem o espaço da área de preview
-- **Validação em Tempo Real**: Impede valores que causariam extrapolação da área de visualização
+## 🎯 Módulos de Aprendizagem
 
-### Sistema Responsivo
-- Limites adaptativos conforme estado do menu (expandido/retraído)
-- Layout otimizado para diferentes tamanhos de tela
-- Componentes sempre visíveis dentro da área de preview
+### Fase 1 - Fundamentos
+- Componentes funcionais
+- JSX e estrutura básica
+- View, Text e Image
+
+### Fase 2 - Interatividade
+- Eventos (onPress)
+- Hook useState
+- Renderização condicional
+
+### Fase 3 - Estilização
+- StyleSheet
+- Flexbox
+- Cards e layouts
+
+### Fase 4 - Navegação
+- React Navigation
+- Stack Navigator
+- Navegação entre telas
+
+## 🛠️ Tecnologias
+
+- **React Native** 0.81.5 com Expo ~54.0.25
+- **React Navigation** para navegação entre telas
+- **AsyncStorage** para persistência de progresso
+- **Hooks** (useState, useEffect, useFocusEffect)
+- **FlatList** para listas eficientes
+- **SafeAreaView** para suporte a diferentes dispositivos
 
 ## 🚀 Como Executar
 
